@@ -1,4 +1,4 @@
-# GreenspaceDAO x Backdrop
+# GreenspaceDAO x Chainlink
 
 Video Demo - [Demo video](https://vimeo.com/939060983) <br />
 Live Link - [GreenspaceDAO dapp]() <br />
