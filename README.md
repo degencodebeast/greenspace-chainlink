@@ -1,12 +1,12 @@
 # GreenspaceDAO x Chainlink
 
 Video Demo - [Demo video](https://vimeo.com/952973463) <br />
-Live Link - [GreenspaceDAO dapp](https://greenspace-backdrop.vercel.app/) <br />
+Live Link - [GreenspaceDAO dapp](https://greenspace-chainlink.vercel.app/) <br />
 Pitch Deck - [Figma slides](https://www.figma.com/proto/kbNH39bNAHi5LMqBysGlHD/GreenSpaceDAO-Pitch-Deck?page-id=0%3A1&type=design&node-id=0-185&viewport=401%2C401%2C0.05&t=T8YMxu888hhtmNQn-8&scaling=scale-down-width&hide-ui=1) <br/>
 
 ## ✨ Description
 
-[GreenspaceDAO](https://greenspace-backdrop.vercel.app/) is the first community blockchain based project powered by community and built for community to promote healthy living and achieve healthy locations where people live up to 100 years all around the world. We are trying to make sure people live healthy by incorporating healthy living habits into their lifestyle and trying to make living healthy fun again by introducing community inclusive programs like weekly challenges where people can even try to compete against each other on a leaderboard, events, video call sessions with certified nutritionists and incentivizing these nutritionists as a focal point, to improve health, productivity and making our members live happier, more fulfilled lives with a sense of purpose and belonging in their community.
+[GreenspaceDAO](https://greenspace-chainlink.vercel.app/) is the first community blockchain based project powered by community and built for community to promote healthy living and achieve healthy locations where people live up to 100 years all around the world. We are trying to make sure people live healthy by incorporating healthy living habits into their lifestyle and trying to make living healthy fun again by introducing community inclusive programs like weekly challenges where people can even try to compete against each other on a leaderboard, events, video call sessions with certified nutritionists and incentivizing these nutritionists as a focal point, to improve health, productivity and making our members live happier, more fulfilled lives with a sense of purpose and belonging in their community.
 
 Think of what we're building as AA for longevity, it's not just about wanting to live longer but having a roadmap, a mission and a group to journey with and be accountable to.
 
