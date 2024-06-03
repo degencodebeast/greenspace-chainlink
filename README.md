@@ -1,7 +1,7 @@
 # GreenspaceDAO x Backdrop
 
 Video Demo - [Demo video](https://vimeo.com/939060983) <br />
-Live Link - [GreenspaceDAO dapp]() <br />
+Live Link - [GreenspaceDAO dapp](https://greenspace-backdrop.vercel.app) <br />
 Pitch Deck - [Figma slides](https://www.figma.com/proto/kbNH39bNAHi5LMqBysGlHD/GreenSpaceDAO-Pitch-Deck?page-id=0%3A1&type=design&node-id=0-185&viewport=401%2C401%2C0.05&t=T8YMxu888hhtmNQn-8&scaling=scale-down-width&hide-ui=1) <br/>
 
 ## ✨ Description
