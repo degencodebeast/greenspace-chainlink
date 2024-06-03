@@ -116,9 +116,9 @@ const config: HardhatUserConfig = {
       chainId: 43113,
       accounts: [`${process.env.PRIVATE_KEY}`],
     },
-    rtfight: {
-      url: "https://rpc-testnet.rtfight.com/",
-      chainId: 22999,
+    scrollSepolia: {
+      url: "https://sepolia-rpc.scroll.io",
+      chainId: 534351,
       accounts: [`${process.env.PRIVATE_KEY}`],
     },
   },

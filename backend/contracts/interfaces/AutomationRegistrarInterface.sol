@@ -2,19 +2,6 @@
 
 pragma solidity 0.8.16;
 
-struct RegistrationParams {
-    string name;
-    bytes encryptedEmail;
-    address upkeepContract;
-    uint32 gasLimit;
-    address adminAddress;
-    uint8 triggerType;
-    bytes checkData;
-    bytes triggerConfig;
-    bytes offchainConfig;
-    uint96 amount;
-}
-
 /**
  * string name = "test upkeep";
  * bytes encryptedEmail = 0x;
@@ -29,6 +16,19 @@ struct RegistrationParams {
  */
 
 interface AutomationRegistrarInterface {
+
+    struct RegistrationParams {
+    string name;
+    bytes encryptedEmail;
+    address upkeepContract;
+    uint32 gasLimit;
+    address adminAddress;
+    uint8 triggerType;
+    bytes checkData;
+    bytes triggerConfig;
+    bytes offchainConfig;
+    uint96 amount;
+}
     function registerUpkeep(
         RegistrationParams calldata requestParams
     ) external returns (uint256);
