@@ -167,7 +167,7 @@ export default function MemberDashboardPage() {
             </>
           ) : (
             <Heading size="md" textAlign="center" color="gray.300" mb={2} mt={4} fontWeight={"bold"}>
-              Register First
+              Welcome
             </Heading>
           )}
         </Flex>
