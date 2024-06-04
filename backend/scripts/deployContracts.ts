@@ -69,22 +69,38 @@ async function deployNutritionistNFT(_communityAddr: any) {
     return nutritionistNFT.address;
 }
 
-async function joinCommunity(_communityAddr: any) {
+async function registerUser(_communityAddr: any, userData: any) {
 
     const provider = getDefaultProvider(rpc);
     const connectedWallet = wallet.connect(provider);
+    const nftUri = "https://bafybeicxroigojtsvluxivtdkgmhcjijhnlvco2prg57ws6k3hqetkvhzu.ipfs.dweb.link/user%20badge.png"
 
     const communityFactory = new CommunityNetwork__factory(connectedWallet);
     const community = communityFactory.attach(_communityAddr);
 
     console.log("joining community network...")
     const amount = ethers.utils.parseEther("0.01");
-    //const tx = await community.registerUser("hello", "nft", {gasLimit: 6000000, value: amount})
-    const tx = await community.nutritionistNFT()
-    //await tx.wait();
+    const tx = await community.registerUser(userData, nftUri, {gasLimit: 6000000, value: amount})
+    //const tx = await community.nutritionistNFT()
+    await tx.wait();
     console.log(tx)
     console.log("community network successfully joined")
 }
+
+// async function registerAndPredictID(_communityAddr: any, params: any) {
+
+//     const provider = getDefaultProvider(rpc);
+//     const connectedWallet = wallet.connect(provider);
+
+//     const communityFactory = new CommunityNetwork__factory(connectedWallet);
+//     const community = communityFactory.attach(_communityAddr);
+
+//     console.log("registering upkeep...")
+//     const tx = await community.registerAndPredictID(params, {gasLimit: 6000000})
+//     //const tx = await community.nutritionistNFT()
+//     await tx.wait();
+//     console.log("upkeep successfully registered")
+// }
 
 async function setupNFTs(userNFTAddr: any, nutritionistNFTAddr: any, communityAddr: any) {
     
