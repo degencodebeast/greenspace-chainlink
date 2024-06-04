@@ -43,16 +43,30 @@ Here's a breakdown of how it was built:
 
 6. Our calling feature is powered by huddle01
 
+
 ## Where we deployed to/contract details
 
-We created and deployed our smart contracts on the Base Testnet Chain.
+We created and deployed our smart contracts on the Avalanche Fuji and Scroll Sepolia Chains.
 
-### Base Testnet Chain
+### Avalanche Fuji Testnet Chain
 
-1. Treasury contract - 0x9E1eF5A92C9Bf97460Cd00C0105979153EA45b27 - [View source code](https://github.com/degencodebeast/rtfhack/blob/main/backend/contracts/Treasury.sol) | [View on Base Chain](https://network.rtfight.com/address/0x9E1eF5A92C9Bf97460Cd00C0105979153EA45b27)
+1. Treasury contract - 0x7ae918d5f28E9a80a6D988b5dfDb5BC7D269Ef24 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/Treasury.sol) | [View on Avalanche Fuji Chain](https://testnet.snowtrace.io/address/0x7ae918d5f28E9a80a6D988b5dfDb5BC7D269Ef24)
 
-2. CommunityNetwork contract - 0x3a65168B746766066288B83417329a7F901b5569 - [View source code](https://github.com/degencodebeast/rtfhack/blob/main/backend/contracts/CommunityNetwork.sol) | [View on Base Chain](https://network.rtfight.com/address/0x3a65168B746766066288B83417329a7F901b5569)
+2. CommunityNetwork contract - 0x7d119789FE23e3025B41C8Cd053503D95ca724FA - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/CommunityNetwork.sol) | [View on Avalanche Fuji Chain](https://testnet.snowtrace.io/address/0x7d119789FE23e3025B41C8Cd053503D95ca724FA)
 
-3. NutritionistNFT contract - 0x6D919b8dC30BEf41b56Aa8b18b2052c9459F8E9A - [View source code](https://github.com/degencodebeast/rtfhack/blob/main/backend/contracts/NutritionistNFT.sol) | [View on Base Chain](https://network.rtfight.com/address/0x6D919b8dC30BEf41b56Aa8b18b2052c9459F8E9A)
+3. UserNFT contract - 0xE712D41c0F754B4A511F93dA2dA93Fa58E3315C8 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/UserNFT.sol) | [View on Avalanche Fuji Chain](https://testnet.snowtrace.io/address/0xE712D41c0F754B4A511F93dA2dA93Fa58E3315C8)
 
-4. UserNFT contract - 0xA39d26482B5c226Fd02A5f3e159C72ee03d63Fc0 - [View source code](https://github.com/degencodebeast/rtfhack/blob/main/backend/contracts/UserNFT.sol) | [View on Base Chain](https://network.rtfight.com/address/0xA39d26482B5c226Fd02A5f3e159C72ee03d63Fc0)
+
+4. NutritionistNFT contract - 0x68754199d890Dbb55EEe77C148699895A3f2B259 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/NutritionistNFT.sol) | [View on Avalanche Fuji Chain](https://testnet.snowtrace.io/address/0x68754199d890Dbb55EEe77C148699895A3f2B259)
+
+
+### Scroll Sepolia Testnet Chain
+
+1. Treasury contract - 0xfaEAc401400A66262CBBe90A37eDAB8CE48B3Ab4 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/Treasury.sol) | [View on Scroll Sepolia](https://sepolia.scrollscan.com/address/0xfaEAc401400A66262CBBe90A37eDAB8CE48B3Ab4)
+
+2. CommunityNetwork contract - 0x4BA50b0D35253fBa2B7D683C620ad4fAf4a3485f - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/CommunityNetwork.sol) | [View on Scroll Sepolia](https://sepolia.scrollscan.com/address/0x4BA50b0D35253fBa2B7D683C620ad4fAf4a3485f)
+
+3. UserNFT contract - 0xB6A44e41Cb7aeB0A8Ac45a36dDE06072FFB1dC12 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/UserNFT.sol) | [View on Scroll Sepolia](https://sepolia.scrollscan.com/address/0xB6A44e41Cb7aeB0A8Ac45a36dDE06072FFB1dC12)
+
+4. NutritionistNFT contract - 0xcd5d5a793b7259b2fFa3d8A1CcF2b640d7d11784 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/NutritionistNFT.sol) | [View on Scroll Sepolia](https://sepolia.scrollscan.com/address/0xcd5d5a793b7259b2fFa3d8A1CcF2b640d7d11784)
+

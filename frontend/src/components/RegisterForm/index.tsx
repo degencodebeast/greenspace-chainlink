@@ -31,7 +31,7 @@ import SwiperMain from "swiper";
 import NutritionistForm from "src/components/NutritionistForm";
 import { countries } from "src/utils/countries";
 import { useDebounce } from "src/hooks/common";
-import { communityAbi } from "../../../abis";
+import { avaxCommunityAbi } from "../../../abis";
 import { communityAddr } from "src/utils/constants";
 import { useStorageUpload } from "@thirdweb-dev/react";
 import { useAddUserMutation, useSendUserInfoToAIMutation } from "src/state/services";
@@ -43,6 +43,7 @@ import { simulateContract, writeContract } from "@wagmi/core";
 import { config } from "src/config/wagmi";
 import { useLogin, useSignMessage } from "@privy-io/react-auth";
 import { BsChevronLeft } from "react-icons/bs";
+//import { useWriteContract } from 'wagmi'
 
 export interface RegisterFormFields {
   fullName: string;
@@ -76,6 +77,8 @@ const RegisterForm = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
     // status: 'success',
     // title: 'Sign up was successful',
   });
+
+  //const { data: hash, writeContract } = useWriteContract()
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
@@ -155,7 +158,7 @@ const RegisterForm = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
       setInTx(true);
       const { request } = await simulateContract(config, {
         address: communityAddr,
-        abi: communityAbi as readonly unknown[],
+        abi: avaxCommunityAbi as readonly unknown[],
         functionName: "registerUser",
         args: [cid, allTokensData.userNftUri],
         //@ts-ignore
