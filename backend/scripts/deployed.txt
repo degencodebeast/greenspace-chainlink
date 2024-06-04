@@ -1,9 +1,21 @@
-Deploying Contracts for Rtf....
-Deploying treasury for Rtf
----- Treasury Contract was deployed to: ----  0x9E1eF5A92C9Bf97460Cd00C0105979153EA45b27
-Deploying Community contract for Rtf
----- Community Contract for Rtf was deployed to Rtf testnet at this address: ----  0x763055Ca49aDB6b41Da2522Ab7E2C714601FaD88
-Deploying UserNFT for Rtf....
----- UserNFT Contract was deployed to: ----  0xCCcE35FF7d1F1501Dc086ef232bC5d46cE5953C6
-Deploying NutritionistNFT for Rtf....
----- NutritionistNFT Contract was deployed to: ----  0x1aC0a3a87A83a7605606A5f629717Ded061B1DDA
+Deploying Contracts for avax....
+Deploying treasury for avax
+---- Treasury Contract was deployed to: ----  0x7ae918d5f28E9a80a6D988b5dfDb5BC7D269Ef24
+Deploying Community contract for avax
+---- Community Contract for avax was deployed to avax testnet at this address: ----  0x7d119789FE23e3025B41C8Cd053503D95ca724FA
+Deploying UserNFT for avax....
+---- UserNFT Contract was deployed to: ----  0xE712D41c0F754B4A511F93dA2dA93Fa58E3315C8
+Deploying NutritionistNFT for avax....
+---- NutritionistNFT Contract was deployed to: ----  0x68754199d890Dbb55EEe77C148699895A3f2B259
+
+Deploying Contracts for scroll....
+Deploying treasury for scroll
+---- Treasury Contract was deployed to: ----  0xfaEAc401400A66262CBBe90A37eDAB8CE48B3Ab4
+Deploying Community contract for scroll
+---- Community Contract for scroll was deployed to scroll testnet at this address: ----  0x4BA50b0D35253fBa2B7D683C620ad4fAf4a3485f
+Deploying UserNFT for scroll....
+---- UserNFT Contract was deployed to: ----  0xB6A44e41Cb7aeB0A8Ac45a36dDE06072FFB1dC12
+Deploying NutritionistNFT for scroll....
+---- NutritionistNFT Contract was deployed to: ----  0xcd5d5a793b7259b2fFa3d8A1CcF2b640d7d11784
+
+

@@ -116,6 +116,11 @@ const config: HardhatUserConfig = {
       chainId: 43113,
       accounts: [`${process.env.PRIVATE_KEY}`],
     },
+    scrollSepolia: {
+      url: "https://sepolia-rpc.scroll.io/",
+      chainId: 534351,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+    },
     rtfight: {
       url: "https://rpc-testnet.rtfight.com/",
       chainId: 22999,
@@ -133,7 +138,8 @@ const config: HardhatUserConfig = {
       arbitrumGoerli: "BWEYRFH5RWRPMMDNAG5WVMQGGEWRS754R6" ?? "",
       snowtrace: "snowtrace",
       avalancheFujiTestnet: "snowtrace",
-      bscTestnet: "CAUR6FE9SVKV8IAEQ6M2C1768T3YIC3KIU"
+      bscTestnet: "CAUR6FE9SVKV8IAEQ6M2C1768T3YIC3KIU",
+      scrollSepolia: "QMHHTU8FD4RPAS6QCA6X4ZBNPXPJHVCH5T"
     },
     customChains: [
       {
