@@ -57,6 +57,8 @@ We created and deployed our smart contracts on the Avalanche Fuji Testnet and Sc
 
 4. UserNFT contract - 0xe2498f0da33F6BdeD4c775C7741C4fAA7ca4A3E9 - [View source code](https://github.com/degencodebeast/greenspace-chainlink/blob/main/backend/contracts/UserNFT.sol) | [View on Avalanche Fuji Chain](https://testnet.snowtrace.io/address/0xe2498f0da33F6BdeD4c775C7741C4fAA7ca4A3E9)
 
+5. Link to Upkeep details - [View on chainlink automation site](https://automation.chain.link/fuji/42403488026905955469928589281621118149244776068943570971778625281433431283456)
+
 
 ### Scroll Sepolia Testnet Chain
 
